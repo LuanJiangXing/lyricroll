@@ -12,7 +12,6 @@
 
 ```bash
 pip install -r requirements.txt
-# 国内装不动就加镜像：-i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 纯 onnxruntime，不需要 PyTorch。
@@ -53,6 +52,4 @@ python3 build_lyrics_video.py --timeline timeline.json \
 
 ## 说明
 
-- 时间是算出来的，不是听出来的，成品需要人耳过一遍
-- 只做整行滚动，不做逐字卡拉 OK
-- 换一首歌只需要重跑对轴脚本，版式参数一个都不用动
+- 只做整行滚动，不做逐字
