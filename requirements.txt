@@ -1,0 +1,4 @@
+funasr-onnx>=0.4
+soundfile
+numpy
+Pillow>=10

@@ -1,0 +1,16 @@
+# 个人素材与成片
+out/
+assets/
+
+# 真实歌词与时间轴（示例除外）
+lyrics*.txt
+timeline.json
+demo_timeline.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
